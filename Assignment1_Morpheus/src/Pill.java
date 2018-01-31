@@ -5,7 +5,7 @@ public class Pill
     private String efficacy;
     private boolean status;
 
-    public Pill(String color, double size)
+    public Pill(String color)
     {
         color = "Blue";
         size = 2.0;
@@ -53,6 +53,23 @@ public class Pill
 
     public void printInfo()
     {
+        if(size < 2.0)
+        {
+            System.out.println("Small");
+        }
+        else
+        {
+            System.out.println("Large");
+        }
+        if(status == true)
+        {
+            System.out.println("Taken");
+        }
+        else
+
+        {
+            System.out.println("Available");
+        }
 
     }
 }
