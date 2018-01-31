@@ -5,10 +5,15 @@ public class Pill
     private String efficacy;
     private boolean status;
 
-    public Pill(String color, double size)
+    public Pill(String color)
     {
         color = "Blue";
         size = 2.0;
+    }
+
+    public String setColor(String color)
+    {
+        this.color = color;
     }
 
     public String getColor()
@@ -16,9 +21,9 @@ public class Pill
         return color;
     }
 
-    public void setColor(String color)
+    public double setSize(double size)
     {
-        this.color = color;
+        this.size = size;
     }
 
     public double getSize()
@@ -26,9 +31,9 @@ public class Pill
         return size;
     }
 
-    public void setSize(double size)
+    public String setEfficacy(String efficacy)
     {
-        this.size = size;
+        this.efficacy = efficacy;
     }
 
     public String getEfficacy()
@@ -36,23 +41,35 @@ public class Pill
         return efficacy;
     }
 
-    public void setEfficacy()
-    {
-        this.efficacy = efficacy;
-    }
-
     public boolean isTaken(boolean status)
     {
         return status;
     }
 
-    public void setStatus(boolean status)
+    public boolean setStatus(boolean status)
     {
         this.status = status;
     }
 
     public void printInfo()
     {
+        if(size < 2.0)
+        {
+            System.out.println("Small");
+        }
+        else
+        {
+            System.out.println("Large");
+        }
+        if(status == true)
+        {
+            System.out.println("Taken");
+        }
+        else
+
+        {
+            System.out.println("Available");
+        }
 
     }
 }
