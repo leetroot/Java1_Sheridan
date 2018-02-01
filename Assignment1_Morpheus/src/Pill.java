@@ -11,44 +11,50 @@ public class Pill
         size = 2.0;
     }
 
-    public String setColor(String color)
-    {
-        this.color = color;
-    }
-
     public String getColor()
     {
-        return color;
+        return this.color;
     }
 
-    public double setSize(double size)
+    public void setColor(String newColor)
     {
-        this.size = size;
+        this.color = newColor;
     }
 
     public double getSize()
     {
-        return size;
+        return this.size;
+    }
+
+    public void setSize(double newSize)
+    {
+        this.size = newSize;
     }
 
     public String setEfficacy(String efficacy)
     {
         this.efficacy = efficacy;
+        return efficacy;
     }
 
     public String getEfficacy()
     {
-        return efficacy;
+        return this.efficacy;
     }
 
     public boolean isTaken(boolean status)
     {
-        return status;
+        return this.status;
     }
 
-    public boolean setStatus(boolean status)
+    public void setStatus(boolean status)
     {
         this.status = status;
+    }
+
+    public boolean getStatus()
+    {
+        return this.status;
     }
 
     public void printInfo()
@@ -66,10 +72,12 @@ public class Pill
             System.out.println("Taken");
         }
         else
-
         {
             System.out.println("Available");
         }
 
     }
+
+
+
 }
