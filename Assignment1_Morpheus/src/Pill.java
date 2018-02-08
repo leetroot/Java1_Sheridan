@@ -4,7 +4,7 @@
  * Assignment: Assignment #1 Meeting Morpheus
  * Date: February 8, 2018
  * Program: Pill.java
- * Github: https://github.com/leetroot/Java1_Sheridan/tree/master/Assignment1_Morpheus/src/Pill.java
+ * Assignment GitHub URL: https://github.com/leetroot/Java1_Sheridan/tree/master/Assignment1_Morpheus/src/Morpheus.java
  */
 
 public class Pill

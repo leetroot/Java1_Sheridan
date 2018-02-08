@@ -4,7 +4,7 @@
  * Assignment: Assignment #1 Meeting Morpheus
  * Date: February 8, 2018
  * Program: Morpheus.java
- * Github: https://github.com/leetroot/Java1_Sheridan/tree/master/Assignment1_Morpheus/src/Morpheus.java
+ * Assignment GitHub URL: https://github.com/leetroot/Java1_Sheridan/tree/master/Assignment1_Morpheus/src/Morpheus.java
  */
 import java.util.*;
 
@@ -74,6 +74,7 @@ public class Morpheus
                     int computerResponse = new Random().nextInt(outputResponses.length);
                     System.out.println("Morpheus: " + outputResponses[computerResponse]);
                     System.out.println("Morpheus: Now tell me Neo, blue (1) or red (2)");
+                    System.out.println("Neo: ");
                     option = input.nextInt();
                     break;
 
