@@ -9,10 +9,15 @@
 
 public class Pill
 {
-    private String color;
-    private double size;
-    private String efficacy;
-    private boolean status;
+    private String color; //Creates a private string
+    private double size; //Creates a private number
+    private String efficacy; //Creates a private string
+    private boolean status; //Creates a private boolean
+
+    /**
+     * Creates a Pill constructor
+     * @param color takes in a color called in from Main method.
+     */
 
     public Pill(String color)
     {
